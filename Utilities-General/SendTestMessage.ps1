@@ -1,0 +1,2 @@
+# Only run this if you have explicit authorization!
+Send-MailMessage -To "alex@umbrellaitgroup.com" -From "alex@umbrellaitgroup.com" -Subject "PoC Test" -SmtpServer "smtp.office365.com" -Credential $ValidCreds -UseSsl -Port 587
