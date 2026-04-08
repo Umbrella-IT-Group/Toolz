@@ -1,24 +1,18 @@
-# Tools, Scripts and more for Windows 10, 11, and Server 2016+
+# Tools, Scripts and more.
+This repository was migrated from @Exploitacious
 
-Popular Links:
+## Curl-ables
+These are quick, curl-able scripts to run on any machine. Use caution.
 
-# System Debloat One-Liner
+### System Debloat One-Liner
 
-    curl -L cleanup.umbrellaitgroup.com -o cleanup.cmd && cleanup.cmd
+    ```curl -L cleanup.umbrellaitgroup.com -o cleanup.cmd && cleanup.cmd```
 
-# Windows Update Reset
+### Windows Update Reset
 
-    curl -L wureset.umbrellaitgroup.com -o WUReset-Unattented.cmd && WUReset-Unattented.cmd
+    ```curl -L wureset.umbrellaitgroup.com -o WUReset-Unattented.cmd && WUReset-Unattented.cmd```
 
-# Search and Destroy anything to do with Solarwinds (N-Able)
+### Gather Windoes Logs and Generate a CSV Timeline
 
-    curl -L swnuke.umbrellaitgroup.com -o swnuke.cmd && swnuke.cmd
+    ```curl -L gatherlogs.umbrellaitgroup.com -o Gather-Logs.cmd && Gather-Logs.cmd```
 
-# Gather Windoes Logs and Generate a CSV Timeline
-
-    curl -L gatherlogs.umbrellaitgroup.com -o Gather-Logs.cmd && Gather-Logs.cmd
-
-# Setup my Linux Shell
-
-    sudo kali-tweaks (set up a few things first) then
-    curl -s https://raw.githubusercontent.com/Exploitacious/Windows_Toolz/main/NotWindows/ShellSetup.sh | sudo bash
